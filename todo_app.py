@@ -76,7 +76,7 @@ def delete_task(tasks):
     else:
         print("Invalid task number.")
 
-# Main Application Loop
+# Main Application loop
 def main():
     tasks = load_tasks()
     while True:
